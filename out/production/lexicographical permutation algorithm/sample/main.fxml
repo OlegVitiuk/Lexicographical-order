@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="204.0" prefWidth="393.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+  <children>
+    <Label layoutX="61.0" layoutY="20.0" text="Lexicographical look through algorithm">
+      <font>
+        <Font name="System Italic" size="16.0" />
+      </font>
+    </Label>
+    <Label layoutX="33.0" layoutY="74.0" text="Amount of variables:" />
+    <Label layoutX="33.0" layoutY="100.0" text="Amount of rows:" />
+    <ComboBox layoutX="175.0" layoutY="72.0" promptText="3">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <ComboBox layoutX="175.0" layoutY="101.0" promptText="3">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Separator layoutX="14.0" layoutY="147.0" minHeight="1.0" prefHeight="1.0" prefWidth="365.0" />
+    <Separator layoutX="14.0" layoutY="58.0" prefWidth="365.0" />
+    <Label layoutX="33.0" layoutY="160.0" text="Value for x:" />
+    <ComboBox layoutX="121.0" layoutY="158.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Button layoutX="263.0" layoutY="158.0" mnemonicParsing="false" text="Make equation" />
+  </children>
+</AnchorPane>
