@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/controlsfx/controlsfx_main.iml" filepath="$PROJECT_DIR$/.idea/modules/controlsfx/controlsfx_main.iml" group="controlsfx" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/controlsfx/controlsfx_test.iml" filepath="$PROJECT_DIR$/.idea/modules/controlsfx/controlsfx_test.iml" group="controlsfx" />
       <module fileurl="file://$PROJECT_DIR$/lexicographical permutation algorithm.iml" filepath="$PROJECT_DIR$/lexicographical permutation algorithm.iml" />
     </modules>
   </component>

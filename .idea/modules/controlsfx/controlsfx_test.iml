@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":controlsfx:test" external.linked.project.path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx" external.root.project.path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" external.system.id="GRADLE" external.system.module.group="org.controlsfx" external.system.module.type="sourceSet" external.system.module.version="8.40.13-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+    <output-test url="file://$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx/build/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../controlsfx/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../controlsfx/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="controlsfx_main" />
+    <orderEntry type="library" name="Gradle: junit:junit:5.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="controlsfx_main" />
+</module>
