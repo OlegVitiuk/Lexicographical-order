@@ -8,7 +8,7 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="204.0" prefWidth="393.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="204.0" prefWidth="393.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
   <children>
     <Label layoutX="61.0" layoutY="20.0" text="Lexicographical look through algorithm">
       <font>
@@ -17,7 +17,7 @@
     </Label>
     <Label layoutX="33.0" layoutY="74.0" text="Amount of variables:" />
     <Label layoutX="33.0" layoutY="100.0" text="Amount of rows:" />
-    <ComboBox layoutX="175.0" layoutY="72.0" promptText="3">
+    <ComboBox fx:id="amountOfVariables" layoutX="175.0" layoutY="72.0" onAction="#sentAmountOfVariables" promptText="3">
       <items>
         <FXCollections fx:factory="observableArrayList">
           <String fx:value="1" />

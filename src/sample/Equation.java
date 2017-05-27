@@ -12,10 +12,12 @@ import javafx.stage.Stage;
  * Created by BusinessPC on 5/7/2017.
  */
 public class Equation{
-    public void display() throws Exception{
+    public void display(AppModel model) throws Exception{
         Stage window = new Stage();
 
-        Parent root = FXMLLoader.load(getClass().getResource("equation.fxml"));
+        FXMLLoader equationLoader = new FXMLLoader(getClass().getResource("equation.fxml"));
+        equationLoader.setController(new EquationController(model));
+        Parent root = equationLoader.load();
         window.initModality(Modality.APPLICATION_MODAL);
         window.setTitle("Equation");
         Scene scene = new Scene(root);

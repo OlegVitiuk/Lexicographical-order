@@ -9,12 +9,17 @@ import java.util.ResourceBundle;
 /**
  * Created by BusinessPC on 5/27/2017.
  */
-public class EquationController implements Initializable{
-    private int amountOfVariables;
+public class EquationController{
+    private AppModel model;
 
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
-        //amountOfVariables = Controller.getAmountOfVariables();
-        //System.out.print(amountOfVariables);
+    public EquationController(AppModel model){
+        this.model = model;
+        System.out.print(model.getAmountOfVariables());
     }
+    public EquationController(){
+
+    }
+
+
+
 }
