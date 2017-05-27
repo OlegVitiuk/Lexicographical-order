@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.EquationController">
+  <children>
+    <Label layoutX="175.0" layoutY="20.0" text="Lexicographical look through algorithm">
+      <font>
+        <Font name="System Italic" size="16.0" />
+      </font>
+    </Label>
+    <TextField layoutX="61.0" layoutY="75.0" prefWidth="35.0" />
+    <Label layoutX="96.0" layoutY="78.0" text="" />
+    <Label layoutX="61.0" layoutY="250.0" text="Функция цели F(x)" />
+  </children>
+</AnchorPane>

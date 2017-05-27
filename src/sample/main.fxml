@@ -20,18 +20,24 @@
     <ComboBox layoutX="175.0" layoutY="72.0" promptText="3">
       <items>
         <FXCollections fx:factory="observableArrayList">
-          <String fx:value="Item 1" />
-          <String fx:value="Item 2" />
-          <String fx:value="Item 3" />
+          <String fx:value="1" />
+          <String fx:value="2" />
+          <String fx:value="3" />
+          <String fx:value="4" />
+          <String fx:value="5" />
+          <String fx:value="6" />
         </FXCollections>
       </items>
     </ComboBox>
     <ComboBox layoutX="175.0" layoutY="101.0" promptText="3">
       <items>
         <FXCollections fx:factory="observableArrayList">
-          <String fx:value="Item 1" />
-          <String fx:value="Item 2" />
-          <String fx:value="Item 3" />
+          <String fx:value="1" />
+          <String fx:value="2" />
+          <String fx:value="3" />
+          <String fx:value="4" />
+          <String fx:value="5" />
+          <String fx:value="6" />
         </FXCollections>
       </items>
     </ComboBox>
@@ -41,12 +47,16 @@
     <ComboBox layoutX="121.0" layoutY="158.0">
       <items>
         <FXCollections fx:factory="observableArrayList">
-          <String fx:value="Item 1" />
-          <String fx:value="Item 2" />
-          <String fx:value="Item 3" />
+          <String fx:value="0" />
+          <String fx:value="1" />
+          <String fx:value="2" />
+          <String fx:value="3" />
+          <String fx:value="4" />
+          <String fx:value="5" />
+          <String fx:value="6" />
         </FXCollections>
       </items>
     </ComboBox>
-    <Button layoutX="263.0" layoutY="158.0" mnemonicParsing="false" text="Make equation" />
+    <Button layoutX="263.0" layoutY="158.0" mnemonicParsing="false" onAction="#makeEquation" text="Make equation" />
   </children>
 </AnchorPane>
