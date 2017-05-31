@@ -8,25 +8,30 @@ import javafx.scene.control.ComboBox;
 import java.net.URL;
 import java.util.*;
 
-public class Controller{
+public class Controller {
     private Equation equation;
     private AppModel model;
     private int ZConstraint;
 
-    @FXML private ComboBox amountOfVariables;
-    @FXML private ComboBox amountOfRows;
-    @FXML private ComboBox xValues;
+    @FXML
+    private ComboBox amountOfVariables;
+    @FXML
+    private ComboBox amountOfRows;
+    @FXML
+    private ComboBox xValues;
 
-    public Controller(AppModel model){
+    public Controller(AppModel model) {
         this.model = model;
         equation = new Equation();
-        ZConstraint = -9999;
-    }
-    public Controller(){
 
     }
 
-    @FXML private void  makeEquation() {
+    public Controller() {
+
+    }
+
+    @FXML
+    private void makeEquation() {
 //        try {
 //            equation.display(model);
 //        }
@@ -36,61 +41,66 @@ public class Controller{
 //        int [][] limitations = new int[5][2];
 
 
-            int amountOfValuesX = 3;
-            int amountOfVariables=3;
+        int amountOfValuesX = 3;
+        int amountOfVariables = 3;
 
 
-            int[] zParameters={1,-5,4,-2,-2};
+        int[] zParameters = {1, -5, 4, -2, -2};
 
 
-            int [][] val = new int[amountOfVariables*9][amountOfValuesX];
+        int[][] val = new int[amountOfVariables * 9][amountOfValuesX];
 
-            String vals="01";
-            char[] chars = vals.toCharArray();
+        String vals = "01";
+        char[] chars = vals.toCharArray();
 
-              //findStreamlining(zParameters);
-            generate(chars,"",4);
-            System.out.println(ZConstraint);
-        }
+        //findStreamlining(zParameters);
+        generate(chars, "", 4);
+        System.out.println(ZConstraint);
+    }
 
-    private void generate(char[] alphabet, String current,int length) {
-        if (length==0) {
+    private void generate(char[] alphabet, String current, int length) {
+        if (length == 0) {
 
             //System.out.println(current);
             checkConstraint(current);
-        }
-        else {
-            for (int i=0;i<alphabet.length;i++) {
-                generate(alphabet,current+alphabet[i],length-1);
+        } else {
+            for (int i = 0; i < alphabet.length; i++) {
+                generate(alphabet, current + alphabet[i], length - 1);
             }
         }
     }
 
-    private ArrayList<Integer> findStreamlining(int [] arr){
+    private ArrayList<Integer> findStreamlining(int[] arr) {
 
         ArrayList<Integer> rez = new ArrayList<>();
-        int []copy= Arrays.copyOf(arr,arr.length);
+        int[] copy = Arrays.copyOf(arr, arr.length);
         Arrays.sort(copy);
 
-        for(int i =0;i<arr.length;i++){
-            for(int j=0;j<arr.length;j++){
-                if(copy[i] == arr[j] && !rez.contains(j+1)){
-                    rez.add(j+1);
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                if (copy[i] == arr[j] && !rez.contains(j + 1)) {
+                    rez.add(j + 1);
                 }
             }
         }
         return rez;
     }
 
-    @FXML private void sentAmountOfVariables(){
+    @FXML
+    private void sentAmountOfVariables() {
         model.setAmountOfVariables(Integer.valueOf(amountOfVariables.getSelectionModel().getSelectedItem().toString()));
     }
-    @FXML private void sentAmountOfRows(){
+
+    @FXML
+    private void sentAmountOfRows() {
         model.setAmountOfRows(Integer.valueOf(amountOfRows.getSelectionModel().getSelectedItem().toString()));
     }
-    @FXML private void pushXValues(){
+
+    @FXML
+    private void pushXValues() {
         //model.setArrayWithValuesOfX(xValues.getSelectionModel().get);
     }
+
     boolean nextPermutation(int[] array) {
         // Find longest non-increasing suffix
         int i = array.length - 1;
@@ -129,49 +139,70 @@ public class Controller{
         return true;
     }
 
-    private void checkConstraint(String current){
+    private void checkConstraint(String current) {
 
         int amountOfVariables = 4;
-        int []zParams = {1,-5,4,-2};
+        int[] zParams = {1, -5, 4, -2};
         int rowsAmount = 2;
 
-        //massive of parameters
-        //int [][]parameters = new int[rowsAmount][amountOfVariables];
-        //set parameters
-        int [][] parameters = {
-                {3,-4,1,-2},
-                {-2,3,-1,-1}
-        };
         //massive of condition
         //int []condition = new int [rowsAmount];
         //set conditions
-        int []condition = {2,1};
+//        int []condition = {2,1};
         boolean toMin = true;
-        boolean [] correctConstraints= new boolean[rowsAmount];
+//        boolean [] correctConstraints= new boolean[rowsAmount];
 
-        for(int k=0;k<rowsAmount;k++) {
+
+        if (toMin) {
+            ZConstraint = 9999;
+        } else {
+            ZConstraint = -9999;
+        }
 
             boolean flagCondition = true;
             int rez = 0;
-            for (int i = 0; i < amountOfVariables; i++) {
 
-                rez += parameters[k][i] * Character.getNumericValue(current.charAt(i));
-                if (rez <= condition[k]) {
-                    correctConstraints[k] = true;
-                } else flagCondition = false;
-            }
-            if (flagCondition) {
-                for (int i = 0; i < amountOfVariables; i++) {
-                    int temp = zParams[i] * Character.getNumericValue(current.charAt(i));
-                    if(toMin && temp<ZConstraint){
-                        ZConstraint=zParams[i] * Character.getNumericValue(current.charAt(i));
+            if (toMin && ZConstraint == 9999 || !toMin && ZConstraint == -9999) {
+                ZConstraint=0;
+                if(checkConstraints(current)){
+                    for (int i = 0; i < amountOfVariables; i++) {
+                        ZConstraint+= zParams[i] * Character.getNumericValue(current.charAt(i));
                     }
-                    else if(!toMin && temp>ZConstraint){
-                        ZConstraint=zParams[i] * Character.getNumericValue(current.charAt(i));
+                }
+                return;
+            }
+
+            for (int i = 0; i < amountOfVariables; i++) {
+                int temp = zParams[i] * Character.getNumericValue(current.charAt(i));
+                if (toMin && temp < ZConstraint || !toMin && temp > ZConstraint) {
+                    if (checkConstraints(current)) {
+                        ZConstraint += zParams[i] * Character.getNumericValue(current.charAt(i));
                     }
                 }
             }
-        }
+        System.out.println(ZConstraint);
     }
 
+    private boolean checkConstraints(String current) {
+
+        int[][] parameters = {
+                {3, -4, 1, -2},
+                {-2, 3, -1, -1}
+        };
+        int[] condition = {2, 1};
+        int rowsAmount = 2;
+        int amountOfVariables = 4;
+        int rez=0;
+        boolean[] correctConstraints = new boolean[rowsAmount];
+
+        for (int i=0;i<rowsAmount;i++) {
+            for (int j = 0; j < amountOfVariables; j++) {
+                rez += parameters[i][j] * Character.getNumericValue(current.charAt(j));
+                if (rez <= condition[i]) {
+                    correctConstraints[i] = true;
+                } else return false;
+            }
+        }
+        return true;
+    }
 }
