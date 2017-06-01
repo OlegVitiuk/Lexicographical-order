@@ -2,13 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/controlsfx-controlsfx-aca01560384c.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/fxsampler/fxsampler.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/controlsfx/controlsfx.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/controlsfx/controlsfx_main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/controlsfx/controlsfx_test.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/META-INF/services/fxsampler.FXSamplerProject" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/ControlsFX.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/ammunationLogo.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/apertureLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/bar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/controlsfx-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/decorations.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/dialogs/login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/duke_wave.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/exclamation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/flowers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/frenchFlag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/icomoon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/information.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/minusPicker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/notification-pane-warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/nukaColaLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/paynsprayLogo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/plusPicker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/raptureLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/security-low.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/spreadsheetSample.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/spreadsheetSample2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/toggleSwitchSample.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/umbrellacorporation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/controlsfx-samples/org/controlsfx/samples/validation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fxsampler/fxsampler/fxsampler.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fxsampler/fxsampler/util/CssTemplate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/fxsampler/fxsampler/util/SourceCodeTemplate.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lexicographical permutation algorithm/sample/AppModel.class" afterPath="$PROJECT_DIR$/out/production/lexicographical permutation algorithm/sample/AppModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lexicographical permutation algorithm/sample/Controller.class" afterPath="$PROJECT_DIR$/out/production/lexicographical permutation algorithm/sample/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lexicographical permutation algorithm/sample/Equation.class" afterPath="$PROJECT_DIR$/out/production/lexicographical permutation algorithm/sample/Equation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lexicographical permutation algorithm/sample/EquationController.class" afterPath="$PROJECT_DIR$/out/production/lexicographical permutation algorithm/sample/EquationController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lexicographical permutation algorithm.iml" afterPath="$PROJECT_DIR$/lexicographical permutation algorithm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lexicographical permutation algorithm/sample/equation.fxml" afterPath="$PROJECT_DIR$/out/production/lexicographical permutation algorithm/sample/equation.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lexicographical permutation algorithm/sample/main.fxml" afterPath="$PROJECT_DIR$/out/production/lexicographical permutation algorithm/sample/main.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/AppModel.java" afterPath="$PROJECT_DIR$/src/sample/AppModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Equation.java" afterPath="$PROJECT_DIR$/src/sample/Equation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/EquationController.java" afterPath="$PROJECT_DIR$/src/sample/EquationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/equation.fxml" afterPath="$PROJECT_DIR$/src/sample/equation.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/main.fxml" afterPath="$PROJECT_DIR$/src/sample/main.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx/.gradle/" />
     <ignored path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx/build/" />
+    <ignored path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/.gradle/" />
+    <ignored path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/build/" />
+    <ignored path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples/.gradle/" />
+    <ignored path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples/build/" />
+    <ignored path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler/.gradle/" />
+    <ignored path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler/build/" />
+    <ignored path="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx/.gradle/" />
+    <ignored path="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +125,9 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
-    <projectState path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c">
+    <projectState path="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c">
       <ProjectState>
-        <dataType path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c">
+        <dataType path="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c">
           <ModuleState>
             <id value="com.intellij.externalSystem.JavaProjectData" />
             <id value="com.intellij.openapi.externalSystem.model.project.LibraryData" />
@@ -74,7 +135,7 @@
             <id value="org.jetbrains.plugins.gradle.model.ExternalProject" />
           </ModuleState>
         </dataType>
-        <dataType path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx">
+        <dataType path="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx">
           <ModuleState>
             <id value="com.android.tools.idea.gradle.ImportedModule" />
             <id value="com.intellij.openapi.externalSystem.model.project.ContentRootData" />
@@ -89,6 +150,9 @@
         <option name="isInclusion" value="true" />
       </ProjectState>
     </projectState>
+    <projectState path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -102,38 +166,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <file leaf-file-name="main.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/main.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="91">
+              <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+              <folding>
+                <element signature="n#FXCollections#0;n#items#0;n#ComboBox#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+              </folding>
             </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Equation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Equation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="289">
+              <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="equation.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/equation.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="203" column="0" lean-forward="true" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+            <state relative-caret-position="118">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#Controller#0;class#Controller#0" expanded="false" />
                 <element signature="method#generate#0;class#Controller#0" expanded="false" />
                 <element signature="method#findStreamlining#0;class#Controller#0" expanded="false" />
-                <element signature="method#sentAmountOfVariables#0;class#Controller#0" expanded="false" />
-                <element signature="method#sentAmountOfRows#0;class#Controller#0" expanded="false" />
-                <element signature="method#pushXValues#0;class#Controller#0" expanded="false" />
                 <element signature="method#nextPermutation#0;class#Controller#0" expanded="false" />
                 <element signature="method#checkConstraint#0;class#Controller#0" expanded="false" />
                 <element signature="method#checkConstraints#0;class#Controller#0" expanded="false" />
@@ -144,50 +234,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FXMLLoader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="1772" column="0" lean-forward="false" selection-start-line="1772" selection-start-column="0" selection-end-line="1772" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AppModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/AppModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="178">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#1314#1315#0" expanded="true" />
+                <element signature="e#1367#1368#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EquationController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EquationController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/EquationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="355">
+              <caret line="42" column="50" lean-forward="false" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/main.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
           </provider>
         </entry>
       </file>
@@ -197,12 +269,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>flagCondition</find>
+      <find>amountOfRows</find>
+      <find>valuesForXvaluesForX</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -216,11 +291,13 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
+        <entry key="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c" value="C:\Users\BusinessPC\.gradle\wrapper\dists\gradle-3.4.1-bin\71zneekfcxxu7l9p7nr2sc65s\gradle-3.4.1" />
         <entry key="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" value="C:\Users\BusinessPC\.gradle\wrapper\dists\gradle-3.4.1-bin\71zneekfcxxu7l9p7nr2sc65s\gradle-3.4.1" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
+        <entry key="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c" value="3.4.1" />
         <entry key="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" value="3.4.1" />
       </map>
     </option>
@@ -236,8 +313,36 @@
           <value>
             <list>
               <ExternalProjectPojo>
+                <option name="name" value="controlsfx-controlsfx-aca01560384c" />
+                <option name="path" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
                 <option name="name" value=":controlsfx" />
                 <option name="path" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":controlsfx-samples" />
+                <option name="path" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":fxsampler" />
+                <option name="path" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="controlsfx-controlsfx-aca01560384c" />
+              <option name="path" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value=":controlsfx" />
+                <option name="path" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -246,6 +351,443 @@
     </option>
     <option name="availableTasks">
       <map>
+        <entry key="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Uploads all artifacts belonging to configuration ':controlsfx:published'" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="uploadPublished" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':controlsfx'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Download translations from Transifex" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="downloadTranslations" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':controlsfx'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="sourceJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':controlsfx'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':controlsfx'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="signArchives" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':controlsfx'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="deleteUtf8Files" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':controlsfx'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="native2ascii" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="javadocJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="compileCSS" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':controlsfx'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':controlsfx'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':controlsfx'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'controlsfx-controlsfx-aca01560384c'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'controlsfx-controlsfx-aca01560384c'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'controlsfx-controlsfx-aca01560384c' (some of the displayed tasks may belong to subprojects)." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="assembleDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="javadocJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'controlsfx-controlsfx-aca01560384c'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uploads all artifacts belonging to configuration ':controlsfx:published'" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="uploadPublished" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'controlsfx-controlsfx-aca01560384c'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="sourceJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'controlsfx-controlsfx-aca01560384c'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'controlsfx-controlsfx-aca01560384c'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="signArchives" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'controlsfx-controlsfx-aca01560384c'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'controlsfx-controlsfx-aca01560384c'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx">
           <value>
             <list>
@@ -267,11 +809,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx" />
                 <option name="name" value="cleanEclipseClasspath" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Download translations from Transifex" />
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx" />
-                <option name="name" value="downloadTranslations" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of project ':controlsfx'." />
@@ -341,10 +878,6 @@
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx" />
-                <option name="name" value="deleteUtf8Files" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from project ':controlsfx'." />
                 <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx" />
                 <option name="name" value="tasks" />
@@ -352,10 +885,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx" />
                 <option name="name" value="cleanEclipseJdt" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx" />
-                <option name="name" value="native2ascii" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
@@ -370,10 +899,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx" />
                 <option name="name" value="javadocJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx" />
-                <option name="name" value="compileCSS" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the insight into a specific dependency in project ':controlsfx'." />
@@ -453,24 +978,549 @@
             </list>
           </value>
         </entry>
+        <entry key="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Uploads all artifacts belonging to configuration ':controlsfx-samples:published'" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="uploadPublished" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':controlsfx-samples'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':controlsfx-samples'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="sourceJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':controlsfx-samples'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':controlsfx-samples'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="signArchives" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':controlsfx-samples'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':controlsfx-samples'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="assembleDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="javadocJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':controlsfx-samples'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':controlsfx-samples'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':controlsfx-samples'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Uploads all artifacts belonging to configuration ':fxsampler:published'" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="uploadPublished" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':fxsampler'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':fxsampler'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="sourceJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':fxsampler'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':fxsampler'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="signArchives" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':fxsampler'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':fxsampler'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="javadocJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':fxsampler'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':fxsampler'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':fxsampler'." />
+                <option name="linkedExternalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" value="8956657356000" />
+        <entry key="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c" value="8956657356000" />
+        <entry key="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" value="7463881130000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
       <map>
+        <entry key="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="controlsfx" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-base-services-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-base-services-groovy-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-cli-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-core-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-docs-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-installation-beacon-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-jvm-services-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-launcher-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-logging-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-messaging-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-model-core-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-model-groovy-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-native-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-open-api-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-process-services-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-resources-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-script-kotlin-0.5.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-tooling-api-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-ui-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-version-info-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/gradle-wrapper-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/groovy-all-2.4.7.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-announce-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-antlr-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-build-cache-http-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-build-comparison-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-build-init-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-code-quality-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-composite-builds-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-dependency-management-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-diagnostics-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-ear-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-ide-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-ide-native-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-ide-play-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-ivy-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-jacoco-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-javascript-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-jetty-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-language-groovy-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-language-java-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-language-jvm-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-language-native-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-language-scala-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-maven-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-osgi-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-platform-base-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-platform-jvm-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-platform-native-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-platform-play-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-plugin-development-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-plugin-use-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-plugins-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-publish-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-reporting-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-resources-http-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-resources-s3-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-resources-sftp-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-scala-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-signing-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-test-kit-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-testing-base-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-testing-jvm-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-testing-native-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-tooling-api-builders-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/gradle-workers-3.4.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.4.1-bin/71zneekfcxxu7l9p7nr2sc65s/gradle-3.4.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/buildSrc/src/main/java" />
+                  <option value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c">
           <value>
             <ExternalProjectBuildClasspathPojo>
               <option name="modulesBuildClasspath">
                 <map>
+                  <entry key="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                   <entry key="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/fxsampler" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -565,15 +1615,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/equation.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Equation.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/sample/EquationController.java" />
-        <option value="$PROJECT_DIR$/src/sample/AppModel.java" />
-        <option value="$PROJECT_DIR$/src/sample/main.fxml" />
         <option value="$PROJECT_DIR$/src/sample/lexicographicalPermutation.java" />
         <option value="$PROJECT_DIR$/src/sample/LexicographicalPermutation.java" />
+        <option value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx/src/main/lexicographical permutation algorithm/src/sample/main.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/AppModel.java" />
+        <option value="$PROJECT_DIR$/src/sample/equation.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/Equation.java" />
+        <option value="$PROJECT_DIR$/src/sample/main.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/style.css" />
+        <option value="$PROJECT_DIR$/src/sample/EquationController.java" />
       </list>
     </option>
   </component>
@@ -590,7 +1642,9 @@
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -610,6 +1664,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -643,7 +1698,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -661,13 +1715,19 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/build.gradle" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BusinessPC\Documents\controlsfx-controlsfx-aca01560384c\controlsfx\src\main" />
       <recent name="C:\Users\BusinessPC\IdeaProjects\lexicographical permutation algorithm" />
     </key>
   </component>
@@ -1098,42 +2158,43 @@
       <workItem from="1495865475739" duration="6856000" />
       <workItem from="1495879712615" duration="615000" />
       <workItem from="1495880403729" duration="1449000" />
-      <workItem from="1496052217059" duration="58919000" />
+      <workItem from="1496052217059" duration="60665000" />
+      <workItem from="1496326857497" duration="735000" />
+      <workItem from="1496327781293" duration="8444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70074000" />
+    <option name="totallyTimeSpent" value="80999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35163206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29228488" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21229868" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35163206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1142,6 +2203,7 @@
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1155,7 +2217,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="87" />
+      <option name="time" value="95" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1172,7 +2234,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1180,7 +2246,171 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#generate#0;class#Controller#0" expanded="false" />
+            <element signature="method#findStreamlining#0;class#Controller#0" expanded="false" />
+            <element signature="method#nextPermutation#0;class#Controller#0" expanded="false" />
+            <element signature="method#checkConstraint#0;class#Controller#0" expanded="false" />
+            <element signature="method#checkConstraints#0;class#Controller#0" expanded="false" />
+            <element signature="method#findNeedlessIndex#0;class#Controller#0" expanded="false" />
+            <element signature="e#7132#7133#0" expanded="false" />
+            <element signature="e#7166#7167#0" expanded="false" />
+            <element signature="method#getSolvedValues#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30124">
+          <caret line="1772" column="0" lean-forward="false" selection-start-line="1772" selection-start-column="0" selection-end-line="1772" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#127539#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3555#3556#0" expanded="false" />
+            <element signature="e#3595#3596#0" expanded="false" />
+            <element signature="e#6271#6272#0" expanded="false" />
+            <element signature="e#6331#6332#0" expanded="false" />
+            <element signature="e#45311#45312#0" expanded="false" />
+            <element signature="e#45372#45373#0" expanded="false" />
+            <element signature="e#57599#57600#0" expanded="false" />
+            <element signature="e#57671#57672#0" expanded="false" />
+            <element signature="e#60461#60462#0" expanded="false" />
+            <element signature="e#60497#60498#0" expanded="false" />
+            <element signature="e#60556#60557#0" expanded="false" />
+            <element signature="e#60598#60599#0" expanded="false" />
+            <element signature="e#61112#61113#0" expanded="false" />
+            <element signature="e#61148#61149#0" expanded="false" />
+            <element signature="e#65761#65762#0" expanded="false" />
+            <element signature="e#65796#65797#0" expanded="false" />
+            <element signature="e#66818#66819#0" expanded="false" />
+            <element signature="e#66864#66865#0" expanded="false" />
+            <element signature="e#66921#66922#0" expanded="false" />
+            <element signature="e#66966#66967#0" expanded="false" />
+            <element signature="e#68431#68432#0" expanded="false" />
+            <element signature="e#68477#68478#0" expanded="false" />
+            <element signature="e#68921#68922#0" expanded="false" />
+            <element signature="e#68967#68968#0" expanded="false" />
+            <element signature="e#69372#69373#0" expanded="false" />
+            <element signature="e#69418#69419#0" expanded="false" />
+            <element signature="e#69818#69819#0" expanded="false" />
+            <element signature="e#69864#69865#0" expanded="false" />
+            <element signature="e#78649#78650#0" expanded="false" />
+            <element signature="e#78724#78725#0" expanded="false" />
+            <element signature="e#78827#78828#0" expanded="false" />
+            <element signature="e#78858#78859#0" expanded="false" />
+            <element signature="e#79010#79011#0" expanded="false" />
+            <element signature="e#79046#79047#0" expanded="false" />
+            <element signature="e#79248#79249#0" expanded="false" />
+            <element signature="e#79295#79296#0" expanded="false" />
+            <element signature="e#80212#80213#0" expanded="false" />
+            <element signature="e#80265#80266#0" expanded="false" />
+            <element signature="e#81592#81593#0" expanded="false" />
+            <element signature="e#81623#81624#0" expanded="false" />
+            <element signature="e#81787#81788#0" expanded="false" />
+            <element signature="e#81827#81828#0" expanded="false" />
+            <element signature="e#81963#81964#0" expanded="false" />
+            <element signature="e#81995#81996#0" expanded="false" />
+            <element signature="e#82173#82174#0" expanded="false" />
+            <element signature="e#82215#82216#0" expanded="false" />
+            <element signature="e#82340#82341#0" expanded="false" />
+            <element signature="e#82372#82373#0" expanded="false" />
+            <element signature="e#82502#82503#0" expanded="false" />
+            <element signature="e#82532#82533#0" expanded="false" />
+            <element signature="e#82931#82932#0" expanded="false" />
+            <element signature="e#82963#82964#0" expanded="false" />
+            <element signature="e#83880#83881#0" expanded="false" />
+            <element signature="e#83916#83917#0" expanded="false" />
+            <element signature="e#84840#84841#0" expanded="false" />
+            <element signature="e#84877#84878#0" expanded="false" />
+            <element signature="e#85050#85051#0" expanded="false" />
+            <element signature="e#85102#85103#0" expanded="false" />
+            <element signature="e#85270#85271#0" expanded="false" />
+            <element signature="e#85310#85311#0" expanded="false" />
+            <element signature="e#85699#85700#0" expanded="false" />
+            <element signature="e#85729#85730#0" expanded="false" />
+            <element signature="e#96278#96279#0" expanded="false" />
+            <element signature="e#96346#96347#0" expanded="false" />
+            <element signature="e#105847#105848#0" expanded="false" />
+            <element signature="e#105919#105920#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/AppModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
+            <element signature="e#1088#1089#0" expanded="false" />
+            <element signature="e#1144#1145#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/EquationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="n#FXCollections#0;n#items#0;n#ComboBox#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Equation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,16 +2419,14 @@
         <state relative-caret-position="85">
           <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#generate#0;class#Controller#0" expanded="false" />
             <element signature="method#findStreamlining#0;class#Controller#0" expanded="false" />
-            <element signature="method#sentAmountOfVariables#0;class#Controller#0" expanded="false" />
-            <element signature="method#sentAmountOfRows#0;class#Controller#0" expanded="false" />
-            <element signature="method#pushXValues#0;class#Controller#0" expanded="false" />
             <element signature="method#nextPermutation#0;class#Controller#0" expanded="false" />
             <element signature="method#checkConstraint#0;class#Controller#0" expanded="false" />
             <element signature="method#checkConstraints#0;class#Controller#0" expanded="false" />
             <element signature="method#findNeedlessIndex#0;class#Controller#0" expanded="false" />
+            <element signature="e#7132#7133#0" expanded="false" />
+            <element signature="e#7166#7167#0" expanded="false" />
             <element signature="method#getSolvedValues#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
@@ -1209,7 +2437,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
+            <element signature="e#1088#1089#0" expanded="false" />
+            <element signature="e#1144#1145#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1218,9 +2460,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,7 +2468,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="51" />
-          <folding />
+          <folding>
+            <element signature="n#FXCollections#0;n#items#0;n#ComboBox#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1239,7 +2481,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1247,7 +2493,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1256,16 +2504,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#generate#0;class#Controller#0" expanded="false" />
             <element signature="method#findStreamlining#0;class#Controller#0" expanded="false" />
-            <element signature="method#sentAmountOfVariables#0;class#Controller#0" expanded="false" />
-            <element signature="method#sentAmountOfRows#0;class#Controller#0" expanded="false" />
-            <element signature="method#pushXValues#0;class#Controller#0" expanded="false" />
             <element signature="method#nextPermutation#0;class#Controller#0" expanded="false" />
             <element signature="method#checkConstraint#0;class#Controller#0" expanded="false" />
             <element signature="method#checkConstraints#0;class#Controller#0" expanded="false" />
             <element signature="method#findNeedlessIndex#0;class#Controller#0" expanded="false" />
+            <element signature="e#7132#7133#0" expanded="false" />
+            <element signature="e#7166#7167#0" expanded="false" />
             <element signature="method#getSolvedValues#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
@@ -1276,7 +2522,21 @@
         <state relative-caret-position="459">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
+            <element signature="e#1088#1089#0" expanded="false" />
+            <element signature="e#1144#1145#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1285,9 +2545,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,7 +2553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="223" lean-forward="false" selection-start-line="9" selection-start-column="223" selection-end-line="9" selection-end-column="223" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1306,7 +2563,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#FXCollections#0;n#items#0;n#ComboBox#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1317,7 +2576,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,7 +2588,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1334,16 +2599,14 @@
         <state relative-caret-position="442">
           <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#generate#0;class#Controller#0" expanded="false" />
             <element signature="method#findStreamlining#0;class#Controller#0" expanded="false" />
-            <element signature="method#sentAmountOfVariables#0;class#Controller#0" expanded="false" />
-            <element signature="method#sentAmountOfRows#0;class#Controller#0" expanded="false" />
-            <element signature="method#pushXValues#0;class#Controller#0" expanded="false" />
             <element signature="method#nextPermutation#0;class#Controller#0" expanded="false" />
             <element signature="method#checkConstraint#0;class#Controller#0" expanded="false" />
             <element signature="method#checkConstraints#0;class#Controller#0" expanded="false" />
             <element signature="method#findNeedlessIndex#0;class#Controller#0" expanded="false" />
+            <element signature="e#7132#7133#0" expanded="false" />
+            <element signature="e#7166#7167#0" expanded="false" />
             <element signature="method#getSolvedValues#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
@@ -1354,7 +2617,21 @@
         <state relative-caret-position="306">
           <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
+            <element signature="e#1088#1089#0" expanded="false" />
+            <element signature="e#1144#1145#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1363,9 +2640,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1373,7 +2648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="223" lean-forward="false" selection-start-line="9" selection-start-column="223" selection-end-line="9" selection-end-column="223" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1384,7 +2658,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="13" lean-forward="true" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="103" />
-          <folding />
+          <folding>
+            <element signature="n#FXCollections#0;n#items#0;n#ComboBox#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1395,7 +2671,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1404,16 +2684,14 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#generate#0;class#Controller#0" expanded="false" />
             <element signature="method#findStreamlining#0;class#Controller#0" expanded="false" />
-            <element signature="method#sentAmountOfVariables#0;class#Controller#0" expanded="false" />
-            <element signature="method#sentAmountOfRows#0;class#Controller#0" expanded="false" />
-            <element signature="method#pushXValues#0;class#Controller#0" expanded="false" />
             <element signature="method#nextPermutation#0;class#Controller#0" expanded="false" />
             <element signature="method#checkConstraint#0;class#Controller#0" expanded="false" />
             <element signature="method#checkConstraints#0;class#Controller#0" expanded="false" />
             <element signature="method#findNeedlessIndex#0;class#Controller#0" expanded="false" />
+            <element signature="e#7132#7133#0" expanded="false" />
+            <element signature="e#7166#7167#0" expanded="false" />
             <element signature="method#getSolvedValues#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
@@ -1423,7 +2701,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="256" lean-forward="false" selection-start-line="10" selection-start-column="256" selection-end-line="10" selection-end-column="256" />
-          <folding />
+          <folding>
+            <element signature="n#FXCollections#0;n#items#0;n#ComboBox#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1434,7 +2714,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1443,16 +2727,14 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#generate#0;class#Controller#0" expanded="false" />
             <element signature="method#findStreamlining#0;class#Controller#0" expanded="false" />
-            <element signature="method#sentAmountOfVariables#0;class#Controller#0" expanded="false" />
-            <element signature="method#sentAmountOfRows#0;class#Controller#0" expanded="false" />
-            <element signature="method#pushXValues#0;class#Controller#0" expanded="false" />
             <element signature="method#nextPermutation#0;class#Controller#0" expanded="false" />
             <element signature="method#checkConstraint#0;class#Controller#0" expanded="false" />
             <element signature="method#checkConstraints#0;class#Controller#0" expanded="false" />
             <element signature="method#findNeedlessIndex#0;class#Controller#0" expanded="false" />
+            <element signature="e#7132#7133#0" expanded="false" />
+            <element signature="e#7166#7167#0" expanded="false" />
             <element signature="method#getSolvedValues#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
@@ -1462,7 +2744,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="n#FXCollections#0;n#items#0;n#ComboBox#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlsfx/src/main/java/org/controlsfx/control/CheckComboBox.java" />
+    <entry file="file://$PROJECT_DIR$/controlsfx/.project" />
+    <entry file="file://$PROJECT_DIR$/controlsfx/.classpath" />
+    <entry file="file://$PROJECT_DIR$/controlsfx/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/src/sample/LexicographicalPermutation.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx/src/main/java/impl/org/controlsfx/tools/PrefixSelectionCustomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx/src/main/java/org/controlsfx/control/action/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/beans/property/ObjectPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/scene/control/ComboBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="350" column="62" lean-forward="false" selection-start-line="350" selection-start-column="62" selection-end-line="350" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="2443" column="36" lean-forward="true" selection-start-line="2443" selection-start-column="36" selection-end-line="2443" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/AppModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Equation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
+            <element signature="method#generate#0;class#Controller#0" expanded="false" />
+            <element signature="method#findStreamlining#0;class#Controller#0" expanded="false" />
+            <element signature="method#nextPermutation#0;class#Controller#0" expanded="false" />
+            <element signature="method#checkConstraint#0;class#Controller#0" expanded="false" />
+            <element signature="method#checkConstraints#0;class#Controller#0" expanded="false" />
+            <element signature="method#findNeedlessIndex#0;class#Controller#0" expanded="false" />
+            <element signature="method#getSolvedValues#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <folding>
+            <element signature="n#FXCollections#0;n#items#0;n#ComboBox#0;n#children#0;n#AnchorPane#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1471,98 +2865,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/equation.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="223" lean-forward="false" selection-start-line="9" selection-start-column="223" selection-end-line="9" selection-end-column="223" />
+        <state relative-caret-position="258">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/EquationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="355">
+          <caret line="42" column="50" lean-forward="false" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controlsfx/src/main/java/org/controlsfx/control/CheckComboBox.java" />
-    <entry file="file://$PROJECT_DIR$/controlsfx/.project" />
-    <entry file="file://$PROJECT_DIR$/controlsfx/.classpath" />
-    <entry file="file://$PROJECT_DIR$/controlsfx/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/src/sample/main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/LexicographicalPermutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="11" column="104" lean-forward="false" selection-start-line="11" selection-start-column="104" selection-end-line="11" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/AppModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Equation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="1772" column="0" lean-forward="false" selection-start-line="1772" selection-start-column="0" selection-end-line="1772" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="203" column="0" lean-forward="true" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#generate#0;class#Controller#0" expanded="false" />
-            <element signature="method#findStreamlining#0;class#Controller#0" expanded="false" />
-            <element signature="method#sentAmountOfVariables#0;class#Controller#0" expanded="false" />
-            <element signature="method#sentAmountOfRows#0;class#Controller#0" expanded="false" />
-            <element signature="method#pushXValues#0;class#Controller#0" expanded="false" />
-            <element signature="method#nextPermutation#0;class#Controller#0" expanded="false" />
-            <element signature="method#checkConstraint#0;class#Controller#0" expanded="false" />
-            <element signature="method#checkConstraints#0;class#Controller#0" expanded="false" />
-            <element signature="method#findNeedlessIndex#0;class#Controller#0" expanded="false" />
-            <element signature="method#getSolvedValues#0;class#Controller#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1619,12 +2945,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>controlsfx-controlsfx-aca01560384c</last-edited>
+          <last-edited>controlsfx_test|controlsfx</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1632,6 +2957,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: junit:junit:5.0-SNAPSHOT</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

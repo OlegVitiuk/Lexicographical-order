@@ -4,6 +4,18 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c" />
+            <option value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx" />
+            <option value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/controlsfx-samples" />
+            <option value="$USER_HOME$/Documents/controlsfx-controlsfx-aca01560384c/fxsampler" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" />
         <option name="modules">
           <set>

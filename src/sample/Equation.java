@@ -21,7 +21,7 @@ public class Equation{
         window.initModality(Modality.APPLICATION_MODAL);
         window.setTitle("Equation");
         Scene scene = new Scene(root);
-        //scene.getStylesheets().add(getClass().getResource("styleAlert.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
         window.setScene(scene);
         window.showAndWait();
     }

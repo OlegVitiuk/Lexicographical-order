@@ -2,6 +2,7 @@ package sample;
 
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
+import javafx.collections.ObservableList;
 
 import java.util.ArrayList;
 
@@ -38,7 +39,7 @@ public class AppModel {
     public final ArrayList getArrayWithValuesOfX(){
         return arrayWithValuesOfX;
     }
-    public final void setArrayWithValuesOfX(int value){
-        this.arrayWithValuesOfX.add(value);
+    public final void setArrayWithValuesOfX(ObservableList<Integer> value){
+        this.arrayWithValuesOfX.addAll(value);
     }
 }

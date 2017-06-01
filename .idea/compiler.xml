@@ -12,8 +12,12 @@
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
     <bytecodeTargetLevel>
+      <module name="controlsfx-samples_main" target="1.8" />
+      <module name="controlsfx-samples_test" target="1.8" />
       <module name="controlsfx_main" target="1.8" />
       <module name="controlsfx_test" target="1.8" />
+      <module name="fxsampler_main" target="1.8" />
+      <module name="fxsampler_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

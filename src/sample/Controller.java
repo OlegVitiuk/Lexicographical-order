@@ -1,14 +1,17 @@
 package sample;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.ComboBox;
-//import controlsfx.control.CheckComboBox;
+import javafx.scene.control.ListView;
+import javafx.scene.control.SelectionMode;
 
 import java.net.URL;
 import java.util.*;
 
-public class Controller {
+public class Controller implements Initializable{
     private Equation equation;
     private AppModel model;
     private int ZConstraint;
@@ -17,12 +20,10 @@ public class Controller {
     private boolean toMin;
     private String values;
 
-    @FXML
-    private ComboBox amountOfVariables;
-    @FXML
-    private ComboBox amountOfRows;
-    @FXML
-    private ComboBox xValues;
+    @FXML private ComboBox amountOfVariables;
+    @FXML private ComboBox amountOfRows;
+    @FXML private ComboBox xValues;
+    @FXML private ListView valuesForX;
 
     public Controller(AppModel model) {
         this.model = model;
@@ -42,33 +43,45 @@ public class Controller {
 
     }
 
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        ObservableList<Integer> items = FXCollections.observableArrayList (0,1,2,3,4,5,6,7,8,9);
+        amountOfRows.getSelectionModel().selectFirst();
+        amountOfVariables.getSelectionModel().selectFirst();
+        valuesForX.setItems(items);
+        valuesForX.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
+        valuesForX.getSelectionModel().selectRange(0,2);
+    }
+
     @FXML
     private void makeEquation() {
-//        try {
-//            equation.display(model);
-//        }
-//        catch(Exception e){
-//            System.err.print(e);
-//        }
-//        int [][] limitations = new int[5][2];
+        model.setArrayWithValuesOfX(valuesForX.getSelectionModel().getSelectedItems());
+        model.setAmountOfVariables(Integer.valueOf(amountOfVariables.getSelectionModel().getSelectedItem().toString()));
+        model.setAmountOfRows(Integer.valueOf(amountOfRows.getSelectionModel().getSelectedItem().toString()));
 
+        try {
+            equation.display(model);
+        }
+        catch(Exception e){
+            System.err.print(e);
+        }
 
-        int amountOfValuesX = 3;
-        int amountOfVariables = 3;
-
-
-        int[] zParameters = {1, -5, 4, -2, -2};
-
-
-        int[][] val = new int[amountOfVariables * 9][amountOfValuesX];
-
-        String vals = "01";
-        char[] chars = vals.toCharArray();
-
-        //findStreamlining(zParameters);
-        generate(chars, "", 4);
-        System.out.println(getZConstraint());
-        System.out.println(getSolvedValues());
+//        int amountOfValuesX = 3;
+//        int amountOfVariables = 3;
+//
+//
+//        int[] zParameters = {1, -5, 4, -2, -2};
+//
+//
+//        int[][] val = new int[amountOfVariables * 9][amountOfValuesX];
+//
+//        String vals = "01";
+//        char[] chars = vals.toCharArray();
+//
+//
+//        generate(chars, "", 4);
+//        System.out.println(getZConstraint());
+//        System.out.println(getSolvedValues());
     }
 
     private void generate(char[] alphabet, String current, int length) {
@@ -101,21 +114,6 @@ public class Controller {
         Integer [] rezultArray = new Integer [rez.size()];
         rezultArray = rez.toArray(rezultArray);
         return Arrays.stream(rezultArray).mapToInt(Integer::intValue).toArray();
-    }
-
-    @FXML
-    private void sentAmountOfVariables() {
-        model.setAmountOfVariables(Integer.valueOf(amountOfVariables.getSelectionModel().getSelectedItem().toString()));
-    }
-
-    @FXML
-    private void sentAmountOfRows() {
-        model.setAmountOfRows(Integer.valueOf(amountOfRows.getSelectionModel().getSelectedItem().toString()));
-    }
-
-    @FXML
-    private void pushXValues() {
-        //model.setArrayWithValuesOfX(xValues.getSelectionModel().get);
     }
 
     boolean nextPermutation(int[] array) {

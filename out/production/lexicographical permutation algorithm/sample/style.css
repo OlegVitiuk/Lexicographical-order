@@ -1,0 +1,6 @@
+.text-field{
+    -fx-pref-width: 25px;
+}
+.label{
+    -fx-padding: 4px;
+}

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":controlsfx:test" external.linked.project.path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx" external.root.project.path="$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c" external.system.id="GRADLE" external.system.module.group="org.controlsfx" external.system.module.type="sourceSet" external.system.module.version="8.40.13-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":controlsfx:test" external.linked.project.path="$MODULE_DIR$/../../../../../.." external.root.project.path="$MODULE_DIR$/../../../../../../.." external.system.id="GRADLE" external.system.module.group="org.controlsfx" external.system.module.type="sourceSet" external.system.module.version="8.40.13-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
-    <output-test url="file://$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx/build/classes/test" />
+    <output-test url="file://$MODULE_DIR$/../../../../../../build/classes/test" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../controlsfx/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../controlsfx/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$USER_HOME$/Downloads/controlsfx-controlsfx-aca01560384c/controlsfx-controlsfx-aca01560384c/controlsfx/src/test/resources" type="java-test-resource" />
-    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="controlsfx_main" />
