@@ -12,6 +12,10 @@ public class Controller {
     private Equation equation;
     private AppModel model;
     private int ZConstraint;
+    private int []correctStreamling;
+    private int amountOfVar;
+    private boolean toMin;
+    private String values;
 
     @FXML
     private ComboBox amountOfVariables;
@@ -24,6 +28,14 @@ public class Controller {
         this.model = model;
         equation = new Equation();
 
+        toMin = true;
+
+        if (toMin) {
+            ZConstraint = 9999;
+        } else {
+            ZConstraint = -9999;
+        }
+        amountOfVar=4;
     }
 
     public Controller() {
@@ -55,7 +67,8 @@ public class Controller {
 
         //findStreamlining(zParameters);
         generate(chars, "", 4);
-        System.out.println(ZConstraint);
+        System.out.println(getZConstraint());
+        System.out.println(getSolvedValues());
     }
 
     private void generate(char[] alphabet, String current, int length) {
@@ -68,22 +81,26 @@ public class Controller {
                 generate(alphabet, current + alphabet[i], length - 1);
             }
         }
+
     }
 
-    private ArrayList<Integer> findStreamlining(int[] arr) {
+    private int[] findStreamlining(int[] arr) {
 
         ArrayList<Integer> rez = new ArrayList<>();
         int[] copy = Arrays.copyOf(arr, arr.length);
         Arrays.sort(copy);
 
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
+        for (int i = arr.length-1; i >=0; i--) {
+            for (int j =arr.length-1; j>=0; j--) {
                 if (copy[i] == arr[j] && !rez.contains(j + 1)) {
                     rez.add(j + 1);
                 }
             }
         }
-        return rez;
+
+        Integer [] rezultArray = new Integer [rez.size()];
+        rezultArray = rez.toArray(rezultArray);
+        return Arrays.stream(rezultArray).mapToInt(Integer::intValue).toArray();
     }
 
     @FXML
@@ -141,7 +158,7 @@ public class Controller {
 
     private void checkConstraint(String current) {
 
-        int amountOfVariables = 4;
+        //int amountOfVariables = 4;
         int[] zParams = {1, -5, 4, -2};
         int rowsAmount = 2;
 
@@ -149,15 +166,13 @@ public class Controller {
         //int []condition = new int [rowsAmount];
         //set conditions
 //        int []condition = {2,1};
-        boolean toMin = true;
+//        boolean toMin = true;
 //        boolean [] correctConstraints= new boolean[rowsAmount];
 
 
-        if (toMin) {
-            ZConstraint = 9999;
-        } else {
-            ZConstraint = -9999;
-        }
+        //get correct streamling
+            correctStreamling = new int[zParams.length];
+                correctStreamling=findStreamlining(zParams);
 
             boolean flagCondition = true;
             int rez = 0;
@@ -165,22 +180,26 @@ public class Controller {
             if (toMin && ZConstraint == 9999 || !toMin && ZConstraint == -9999) {
                 ZConstraint=0;
                 if(checkConstraints(current)){
-                    for (int i = 0; i < amountOfVariables; i++) {
-                        ZConstraint+= zParams[i] * Character.getNumericValue(current.charAt(i));
+                    for (int i = 0; i < amountOfVar; i++) {
+                        ZConstraint+= zParams[i] * Character.getNumericValue(current.charAt(findNeedlessIndex(i)));
                     }
                 }
-                return;
-            }
+            }else {
+                int temp=0;
 
-            for (int i = 0; i < amountOfVariables; i++) {
-                int temp = zParams[i] * Character.getNumericValue(current.charAt(i));
+                for (int i = 0; i < amountOfVar; i++) {
+                    temp += zParams[i] * Character.getNumericValue(current.charAt(findNeedlessIndex(i)));
+                }
                 if (toMin && temp < ZConstraint || !toMin && temp > ZConstraint) {
                     if (checkConstraints(current)) {
-                        ZConstraint += zParams[i] * Character.getNumericValue(current.charAt(i));
+                        ZConstraint = 0;
+                        for (int i = 0; i < amountOfVar; i++) {
+                            ZConstraint += zParams[i] * Character.getNumericValue(current.charAt(findNeedlessIndex(i)));
+                        }
+                        values = current;
                     }
                 }
             }
-        System.out.println(ZConstraint);
     }
 
     private boolean checkConstraints(String current) {
@@ -191,18 +210,38 @@ public class Controller {
         };
         int[] condition = {2, 1};
         int rowsAmount = 2;
-        int amountOfVariables = 4;
-        int rez=0;
+        int rez;
         boolean[] correctConstraints = new boolean[rowsAmount];
 
         for (int i=0;i<rowsAmount;i++) {
-            for (int j = 0; j < amountOfVariables; j++) {
-                rez += parameters[i][j] * Character.getNumericValue(current.charAt(j));
-                if (rez <= condition[i]) {
-                    correctConstraints[i] = true;
-                } else return false;
+            rez=0;
+            for (int j = 0; j < amountOfVar; j++) {
+                rez += parameters[i][j] * Character.getNumericValue(current.charAt(findNeedlessIndex(j)));
             }
+            if (rez <= condition[i]) {
+                correctConstraints[i] = true;
+            } else return false;
         }
         return true;
+    }
+
+    private int findNeedlessIndex(int currentVariable){
+        for (int i=0;i<amountOfVar;i++){
+            if(correctStreamling[i]==currentVariable+1)
+                return i;
+        }
+        return 0;
+    }
+
+    public int getZConstraint() {
+        return ZConstraint;
+    }
+    public String getSolvedValues(){
+
+        String sortedRez="";
+        for(int i=0;i<amountOfVar;i++) {
+            sortedRez += values.charAt(findNeedlessIndex(i));
+        }
+        return sortedRez;
     }
 }
