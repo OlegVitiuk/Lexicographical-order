@@ -15,6 +15,8 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.ResourceBundle;
 
 /**
@@ -30,6 +32,9 @@ public class EquationController implements Initializable{
     private int[] zParams;
     private int ZConstraint;
     private String comparingActions;
+    private int []correctStreamling;
+    private boolean toMin;
+    private String values;
 
 
     public EquationController(AppModel model){
@@ -38,6 +43,7 @@ public class EquationController implements Initializable{
         conditions = new int[model.getAmountOfRows()];
         zParams = new int[model.getAmountOfVariables()];
         comparingActions="";
+        values ="";
     }
     public EquationController(){
 
@@ -116,8 +122,12 @@ public class EquationController implements Initializable{
         ComboBox checkMaxMin = (ComboBox) zFunction.lookup("#checkMinMax");
         if(checkMaxMin.getSelectionModel().getSelectedIndex()==0) {
             ZConstraint = -9999;
+            toMin=false;
         }
-        else ZConstraint = -9999;
+        else {
+            ZConstraint = 9999;
+            toMin=  true;
+        }
 
     }
 
@@ -132,9 +142,112 @@ public class EquationController implements Initializable{
 
     @FXML private void solveIt(){
         setParameters();
-        setComparingActions();
+        //setComparingActions();
 
-        
+        char[] chars = new char[model.getAmountOfX()];
+        for(int i = 0; i < model.getAmountOfX(); i++) {
+            chars[i] = model.getArrayWithValuesOfX().get(i).toString().charAt(0);
+        }
+        generate(chars, "", model.getAmountOfVariables());
+
+        //get rezults
+        System.out.println(values+" "+ZConstraint);
+    }
+
+    private void generate(char[] alphabet, String current, int length) {
+        if (length == 0) {
+            checkConstraint(current);
+        } else {
+            for (int i = 0; i < alphabet.length; i++) {
+                generate(alphabet, current + alphabet[i], length - 1);
+            }
+        }
+
+    }
+
+    private int[] findStreamlining(int[] arr) {
+
+        ArrayList<Integer> rez = new ArrayList<>();
+        int[] copy = Arrays.copyOf(arr, arr.length);
+        Arrays.sort(copy);
+
+        for (int i = arr.length-1; i >=0; i--) {
+            for (int j =arr.length-1; j>=0; j--) {
+                if (copy[i] == arr[j] && !rez.contains(j + 1)) {
+                    rez.add(j + 1);
+                }
+            }
+        }
+
+        Integer [] rezultArray = new Integer [rez.size()];
+        rezultArray = rez.toArray(rezultArray);
+        return Arrays.stream(rezultArray).mapToInt(Integer::intValue).toArray();
+    }
+
+    private void checkConstraint(String current) {
+        //get correct streamling
+        correctStreamling = new int[zParams.length];
+        correctStreamling=findStreamlining(zParams);
+
+        if (toMin && ZConstraint == 9999 || !toMin && ZConstraint == -9999) {
+            ZConstraint=0;
+            if(checkConstraints(current)){
+                for (int i = 0; i < model.getAmountOfVariables(); i++) {
+                    ZConstraint+= zParams[i] * Character.getNumericValue(current.charAt(findNeedlessIndex(i)));
+                }
+            }
+        }else {
+            int temp=0;
+
+            for (int i = 0; i < model.getAmountOfVariables(); i++) {
+                temp += zParams[i] * Character.getNumericValue(current.charAt(findNeedlessIndex(i)));
+            }
+            if (toMin && temp < ZConstraint || !toMin && temp > ZConstraint) {
+                if (checkConstraints(current)) {
+                    ZConstraint = 0;
+                    for (int i = 0; i < model.getAmountOfVariables(); i++) {
+                        ZConstraint += zParams[i] * Character.getNumericValue(current.charAt(findNeedlessIndex(i)));
+                    }
+                    values = current;
+                }
+            }
+        }
+    }
+
+    private boolean checkConstraints(String current) {
+        int rez;
+        boolean[] correctConstraints = new boolean[model.getAmountOfRows()];
+
+        for (int i=0;i<model.getAmountOfRows();i++) {
+            rez=0;
+            for (int j = 0; j < model.getAmountOfVariables(); j++) {
+                rez += parameters[i][j] * Character.getNumericValue(current.charAt(findNeedlessIndex(j)));
+            }
+            if (rez <= conditions[i]) {
+                correctConstraints[i] = true;
+            } else return false;
+        }
+        return true;
+    }
+
+    private int findNeedlessIndex(int currentVariable){
+        for (int i=0;i<model.getAmountOfVariables();i++){
+            if(correctStreamling[i]==currentVariable+1)
+                return i;
+        }
+        return 0;
+    }
+
+    public int getZConstraint() {
+        return ZConstraint;
+    }
+    public String getSolvedValues(){
+
+        String sortedRez="";
+        for(int i=0;i<model.getAmountOfVariables();i++) {
+            sortedRez += values.charAt(findNeedlessIndex(i));
+        }
+        return sortedRez;
     }
 
 }

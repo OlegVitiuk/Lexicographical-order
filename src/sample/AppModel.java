@@ -42,4 +42,7 @@ public class AppModel {
     public final void setArrayWithValuesOfX(ObservableList<Integer> value){
         this.arrayWithValuesOfX.addAll(value);
     }
+    public final int getAmountOfX(){
+        return this.getArrayWithValuesOfX().size();
+    }
 }
