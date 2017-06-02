@@ -8,3 +8,6 @@
     -fx-background-color: #778030;
     -fx-text-fill: aliceblue;
 }
+.combo-box{
+    -fx-background-color: lightseagreen;
+}

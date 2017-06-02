@@ -10,6 +10,7 @@ import javafx.scene.Node;
 import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import jdk.nashorn.internal.runtime.ECMAException;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -30,7 +31,7 @@ public class EquationController implements Initializable{
     private int[] conditions;
     private int[] zParams;
     private int ZConstraint;
-    private String comparingActions;
+    private String[] comparingActions;
     private int []correctStreamling;
     private boolean toMin;
     private String values;
@@ -41,7 +42,7 @@ public class EquationController implements Initializable{
         parameters = new int[model.getAmountOfRows()][model.getAmountOfVariables()];
         conditions = new int[model.getAmountOfRows()];
         zParams = new int[model.getAmountOfVariables()];
-        comparingActions="";
+        comparingActions = new String[model.getAmountOfRows()];
         values ="";
     }
     public EquationController(){
@@ -118,24 +119,24 @@ public class EquationController implements Initializable{
 
     private boolean setParameters(){
 
-        HBox currentHBox = new HBox();
-        for (int i=0;i<model.getAmountOfRows();i++) {
+        try {
+            HBox currentHBox = new HBox();
+            for (int i = 0; i < model.getAmountOfRows(); i++) {
                 int amount = 0;
                 currentHBox = (HBox) content.lookup("#" + i);
 
                 for (Node node : currentHBox.getChildren()) {
-                    if (node instanceof TextField && amount<currentHBox.getChildren().size()-2) {
+                    if (node instanceof TextField && amount < currentHBox.getChildren().size() - 2) {
                         node.setStyle(null);
-                        if(((TextField) node).getText().isEmpty() || node.getStyleClass().contains("error")) {
+                        if (node.getStyleClass().contains("error") || ((TextField) node).getText().isEmpty()) {
                             node.setStyle("-fx-border-color: darkred; -fx-border-width: 2px");
                             return false;
                         }
                         parameters[Character.getNumericValue(node.getId().charAt(0))][Character.getNumericValue(node.getId().charAt(1))]
                                 = Integer.parseInt(((TextField) node).getText());
-                    }
-                    else if(node instanceof TextField && amount>=currentHBox.getChildren().size()-2){
+                    } else if (node instanceof TextField && amount >= currentHBox.getChildren().size() - 2) {
                         node.setStyle(null);
-                        if(((TextField) node).getText().isEmpty() || node.getStyleClass().get(0)=="error") {
+                        if ((node.getStyleClass().get(0) == "error") || ((TextField) node).getText().isEmpty()) {
                             node.setStyle("-fx-border-color: darkred; -fx-border-width: 2px");
                             return false;
                         }
@@ -144,18 +145,26 @@ public class EquationController implements Initializable{
                     }
                     amount++;
                 }
-        }
-        //set zParams
-        for (Node node : zFunction.getChildren()) {
-            if (node instanceof TextField) {
-                node.setStyle(null);
-                if(((TextField) node).getText().isEmpty() || node.getStyleClass().get(0)=="error") {
-                    node.setStyle("-fx-border-color: darkred; -fx-border-width: 2px");
-                    return false;
-                }
-                zParams[Character.getNumericValue(node.getId().charAt(1))]
-                        = Integer.parseInt(((TextField) node).getText());
             }
+            //set zParams
+            for (Node node : zFunction.getChildren()) {
+                if (node instanceof TextField) {
+                    node.setStyle(null);
+                    if (node.getStyleClass().get(0) == "error" || ((TextField) node).getText().isEmpty()){
+                        node.setStyle("-fx-border-color: darkred; -fx-border-width: 2px");
+                        return false;
+                    }
+                    zParams[Character.getNumericValue(node.getId().charAt(1))]
+                            = Integer.parseInt(((TextField) node).getText());
+                }
+            }
+        }
+        catch (Exception e){
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error!");
+            alert.setContentText("Why are you enter string values?");
+            alert.showAndWait();
+            return false;
         }
         //setToMaxOrMin
         ComboBox checkMaxMin = (ComboBox) zFunction.lookup("#checkMinMax");
@@ -173,7 +182,7 @@ public class EquationController implements Initializable{
     private void setComparingActions(){
         for (int i=0;i<model.getAmountOfRows();i++) {
             ComboBox constraints = (ComboBox) content.lookup("#check"+i);
-            comparingActions += constraints.getSelectionModel().getSelectedItem().toString();
+            comparingActions[i]= constraints.getSelectionModel().getSelectedItem().toString();
         }
     }
 
@@ -199,7 +208,6 @@ public class EquationController implements Initializable{
                 generate(alphabet, current + alphabet[i], length - 1);
             }
         }
-
     }
 
     private int[] findStreamlining(int[] arr) {
@@ -260,9 +268,19 @@ public class EquationController implements Initializable{
             for (int j = 0; j < model.getAmountOfVariables(); j++) {
                 rez += parameters[i][j] * Character.getNumericValue(current.charAt(findNeedlessIndex(j)));
             }
-            if (rez <= conditions[i]) {
-                correctConstraints[i] = true;
-            } else return false;
+            if(comparingActions[i]=="<=") {
+                if (rez <= conditions[i]) {
+                    correctConstraints[i] = true;
+                } else return false;
+            }else if(comparingActions[i]==">="){
+                if (rez >= conditions[i]) {
+                    correctConstraints[i] = true;
+                } else return false;
+            }else{
+                if (rez == conditions[i]) {
+                    correctConstraints[i] = true;
+                } else return false;
+            }
         }
         return true;
     }
@@ -279,20 +297,28 @@ public class EquationController implements Initializable{
         return ZConstraint;
     }
     public String getSolvedValues(){
-
         String sortedRez="";
-        for(int i=0;i<model.getAmountOfVariables();i++) {
-            sortedRez += values.charAt(findNeedlessIndex(i));
+        try {
+            for(int i=0;i<model.getAmountOfVariables();i++) {
+                sortedRez += values.charAt(findNeedlessIndex(i));
+            }
+        }
+        catch (Exception e){
+            return "";
         }
         return sortedRez;
     }
 
-    private void showSolution(){
-        solution.setVisible(true);
-        for (int i=0;i<model.getAmountOfVariables();i++){
-            solution.appendText("x"+(i+1)+" = "+getSolvedValues().charAt(i));
-        }
-        solution.appendText("\n"+"Z = "+ZConstraint);
-    }
 
+    private void showSolution(){
+        solution.clear();
+        if(getSolvedValues().isEmpty()) {
+            solution.appendText("Ooops! There is no solution!");
+        }else{
+            for (int i=0;i<model.getAmountOfVariables();i++){
+                solution.appendText("x"+(i+1)+" = "+getSolvedValues().charAt(i)+" ");
+            }
+            solution.appendText("\n"+"Z = "+ZConstraint);
+        }
+    }
 }

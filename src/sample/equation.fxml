@@ -29,9 +29,9 @@
             <HBox fx:id="zFunction" spacing="5.0" />
          </content>
       </ScrollPane>
-      <ScrollPane layoutX="106.0" layoutY="349.0" prefHeight="49.0" prefWidth="304.0">
+      <ScrollPane layoutX="106.0" layoutY="349.0">
          <content>
-            <TextArea fx:id="solution" prefHeight="31.0" prefWidth="301.0" visible="false" />
+            <TextArea fx:id="solution" prefHeight="45.0" prefWidth="301.0" />
          </content>
       </ScrollPane>
   </children>
