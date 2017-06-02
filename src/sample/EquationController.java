@@ -24,13 +24,20 @@ public class EquationController implements Initializable{
     private AppModel model;
     @FXML private VBox content;
     @FXML private Button solve;
+    @FXML private HBox zFunction;
     private int[][] parameters;
+    private int[] conditions;
+    private int[] zParams;
+    private int ZConstraint;
+
     private String current;
 
 
     public EquationController(AppModel model){
         this.model = model;
         parameters = new int[model.getAmountOfRows()][model.getAmountOfVariables()];
+        conditions = new int[model.getAmountOfRows()];
+        zParams = new int[model.getAmountOfVariables()];
     }
     public EquationController(){
 
@@ -51,10 +58,27 @@ public class EquationController implements Initializable{
                 TextField tf = new TextField();
                 tf.setId(""+i+j);
                 constraint.getChildren().addAll(label,tf);
+
+                if(i==0) {
+                    //add zFunction blocks
+                    Label labelZ = new Label("X" + (j + 1));
+                    TextField tfZ = new TextField();
+                    tfZ.setId("z" + j);
+                    zFunction.setAlignment(Pos.CENTER);
+                    zFunction.getChildren().addAll(labelZ,tfZ);
+                    if (j >= model.getAmountOfVariables() - 1) {
+                        Label labelArrow = new Label("-->");
+                        ComboBox checkMinOrMax = new ComboBox();
+                        checkMinOrMax.getItems().addAll("max", "min");
+                        checkMinOrMax.setId("checkMinMax");
+                        zFunction.getChildren().addAll(labelArrow, checkMinOrMax);
+                    }
+                }
             }
             ComboBox checkConstraint = new ComboBox();
             checkConstraint.getItems().addAll("<=","=",">=");
             TextField tf = new TextField();
+            tf.setId("c"+i);
             constraint.getChildren().addAll(checkConstraint,tf);
             content.getChildren().add(constraint);
         }
@@ -62,35 +86,46 @@ public class EquationController implements Initializable{
     }
 
     private void setParameters(){
+
         HBox currentHBox = new HBox();
         for (int i=0;i<model.getAmountOfRows();i++) {
-            int amount = 0;
-            currentHBox = (HBox) content.lookup("#" + i);
-            for (Node node : currentHBox.getChildren()) {
-                if (node instanceof TextField && amount<currentHBox.getChildren().size()-2) {
-                    parameters[Character.getNumericValue(node.getId().charAt(0))][Character.getNumericValue(node.getId().charAt(1))]
-                            = Integer.parseInt(((TextField) node).getText());
-                }
-                amount++;
+                int amount = 0;
+                currentHBox = (HBox) content.lookup("#" + i);
 
+                for (Node node : currentHBox.getChildren()) {
+                    if (node instanceof TextField && amount<currentHBox.getChildren().size()-2) {
+                        parameters[Character.getNumericValue(node.getId().charAt(0))][Character.getNumericValue(node.getId().charAt(1))]
+                                = Integer.parseInt(((TextField) node).getText());
+                    }
+                    else if(node instanceof TextField && amount>=currentHBox.getChildren().size()-2){
+                        conditions[Character.getNumericValue(node.getId().charAt(1))]
+                                = Integer.parseInt(((TextField) node).getText());
+                    }
+                    amount++;
+                }
+        }
+        //set zParams
+        for (Node node : zFunction.getChildren()) {
+            if (node instanceof TextField) {
+                zParams[Character.getNumericValue(node.getId().charAt(1))]
+                        = Integer.parseInt(((TextField) node).getText());
             }
         }
+        //setToMaxOrMin
+        ComboBox checkMaxMin = (ComboBox) zFunction.lookup("#checkMinMax");
+        if(checkMaxMin.getSelectionModel().getSelectedIndex()==0) {
+            ZConstraint = -9999;
+        }
+        else ZConstraint = -9999;
+
     }
 
-    private void setConditions(){
-
-    }
-
-    private void setZParams(){
-
-    }
     private void setComparingActions(){
 
     }
 
     @FXML private void solveIt(){
         setParameters();
-
     }
 
 }
