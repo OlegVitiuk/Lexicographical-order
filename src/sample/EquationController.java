@@ -29,8 +29,7 @@ public class EquationController implements Initializable{
     private int[] conditions;
     private int[] zParams;
     private int ZConstraint;
-
-    private String current;
+    private String comparingActions;
 
 
     public EquationController(AppModel model){
@@ -38,6 +37,7 @@ public class EquationController implements Initializable{
         parameters = new int[model.getAmountOfRows()][model.getAmountOfVariables()];
         conditions = new int[model.getAmountOfRows()];
         zParams = new int[model.getAmountOfVariables()];
+        comparingActions="";
     }
     public EquationController(){
 
@@ -77,6 +77,7 @@ public class EquationController implements Initializable{
             }
             ComboBox checkConstraint = new ComboBox();
             checkConstraint.getItems().addAll("<=","=",">=");
+            checkConstraint.setId("check"+i);
             TextField tf = new TextField();
             tf.setId("c"+i);
             constraint.getChildren().addAll(checkConstraint,tf);
@@ -121,11 +122,19 @@ public class EquationController implements Initializable{
     }
 
     private void setComparingActions(){
+        ComboBox checkMaxMin;
 
+        for (int i=0;i<model.getAmountOfRows();i++) {
+            checkMaxMin = (ComboBox) content.lookup("#check"+i);
+            comparingActions +=checkMaxMin.getSelectionModel().getSelectedItem().toString();
+        }
     }
 
     @FXML private void solveIt(){
         setParameters();
+        setComparingActions();
+
+        
     }
 
 }
