@@ -11,9 +11,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="216.0" prefWidth="393.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="196.0" prefWidth="341.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
   <children>
-    <Label layoutX="61.0" layoutY="20.0" text="Lexicographical look through algorithm">
+    <Label layoutX="35.0" layoutY="21.0" text="Lexicographical look through algorithm">
       <font>
         <Font name="System Italic" size="16.0" />
       </font>
@@ -50,11 +50,11 @@
         </FXCollections>
       </items>
     </ComboBox>
-    <Separator layoutX="14.0" layoutY="147.0" minHeight="1.0" prefHeight="1.0" prefWidth="365.0" />
-    <Separator layoutX="14.0" layoutY="58.0" prefWidth="365.0" />
-    <Label layoutX="76.0" layoutY="150.0" text="Values for x" />
-    <Button layoutX="244.0" layoutY="159.0" mnemonicParsing="false" onAction="#makeEquation" text="Make equation" />
-      <ListView fx:id="valuesForX" layoutX="14.0" layoutY="171.0" orientation="HORIZONTAL" prefHeight="37.0" prefWidth="209.0">
+    <Separator layoutX="14.0" layoutY="131.0" minHeight="1.0" prefHeight="17.0" prefWidth="310.0" />
+    <Separator layoutX="14.0" layoutY="61.0" prefHeight="0.0" prefWidth="310.0" />
+    <Label layoutX="14.0" layoutY="158.0" text="Values for x" />
+    <Button layoutX="237.0" layoutY="88.0" mnemonicParsing="false" onAction="#makeEquation" text="Make equation" />
+      <ListView fx:id="valuesForX" layoutX="84.0" layoutY="148.0" orientation="HORIZONTAL" prefHeight="37.0" prefWidth="251.0">
          <effect>
             <DropShadow />
          </effect></ListView>
