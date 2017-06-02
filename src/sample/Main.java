@@ -19,7 +19,9 @@ public class Main extends Application {
         mainLoader.setController(new Controller(model));
         Parent root = mainLoader.load();
         primaryStage.setTitle("Lexicographical permutation algorithm");
-        primaryStage.setScene(new Scene(root));
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 

@@ -7,10 +7,7 @@ import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
-import javafx.scene.control.Button;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
@@ -23,10 +20,12 @@ import java.util.ResourceBundle;
  * Created by BusinessPC on 5/27/2017.
  */
 public class EquationController implements Initializable{
-    private AppModel model;
     @FXML private VBox content;
     @FXML private Button solve;
     @FXML private HBox zFunction;
+    @FXML private TextArea solution;
+
+    private AppModel model;
     private int[][] parameters;
     private int[] conditions;
     private int[] zParams;
@@ -83,6 +82,7 @@ public class EquationController implements Initializable{
                         ComboBox checkMinOrMax = new ComboBox();
                         checkMinOrMax.getItems().addAll("max", "min");
                         checkMinOrMax.setId("checkMinMax");
+                        checkMinOrMax.getSelectionModel().selectLast();
                         zFunction.getChildren().addAll(labelArrow, checkMinOrMax);
                     }
                 }
@@ -90,6 +90,7 @@ public class EquationController implements Initializable{
             ComboBox checkConstraint = new ComboBox();
             checkConstraint.getItems().addAll("<=","=",">=");
             checkConstraint.setId("check"+i);
+            checkConstraint.getSelectionModel().selectFirst();
             TextField tf = new TextField();
             tf.setId("c"+i);
             checkOnUpdate(tf);
@@ -169,24 +170,15 @@ public class EquationController implements Initializable{
         return true;
     }
 
-    private boolean setComparingActions(){
-        ComboBox checkMaxMin=null;
-
+    private void setComparingActions(){
         for (int i=0;i<model.getAmountOfRows();i++) {
-            try {
-                checkMaxMin = (ComboBox) content.lookup("#check" + i);
-                checkMaxMin.setStyle(null);
-                comparingActions += checkMaxMin.getSelectionModel().getSelectedItem().toString();
-            }catch(Exception e){
-                    checkMaxMin.setStyle("-fx-border-color: darkred; -fx-border-width: 2px");
-                    return false;
-            }
+            ComboBox constraints = (ComboBox) content.lookup("#check"+i);
+            comparingActions += constraints.getSelectionModel().getSelectedItem().toString();
         }
-        return true;
     }
 
     @FXML private void solveIt(){
-        if(setParameters() && setComparingActions()) {
+        if(setParameters()) {
             setComparingActions();
 
             char[] chars = new char[model.getAmountOfX()];
@@ -195,8 +187,7 @@ public class EquationController implements Initializable{
             }
             generate(chars, "", model.getAmountOfVariables());
 
-            //get rezults
-            System.out.println(values + " " + ZConstraint);
+            showSolution();
         }
     }
 
@@ -294,6 +285,14 @@ public class EquationController implements Initializable{
             sortedRez += values.charAt(findNeedlessIndex(i));
         }
         return sortedRez;
+    }
+
+    private void showSolution(){
+        solution.setVisible(true);
+        for (int i=0;i<model.getAmountOfVariables();i++){
+            solution.appendText("x"+(i+1)+" = "+getSolvedValues().charAt(i));
+        }
+        solution.appendText("\n"+"Z = "+ZConstraint);
     }
 
 }

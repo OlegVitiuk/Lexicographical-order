@@ -4,3 +4,7 @@
 .label{
     -fx-padding: 4px;
 }
+.button{
+    -fx-background-color: #778030;
+    -fx-text-fill: aliceblue;
+}
